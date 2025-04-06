@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router-dom";
 import CommunityModal from "./CommunityModal";
-import "../styles/createDropdown.css";
+import "../styles/CreateDropdown.css";
 
 const Dropdown = ({ isOpen, onClose }) => {
   const [modal, setModal] = useState(false);
